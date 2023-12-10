@@ -1,7 +1,7 @@
 """
 
    An implementation of hyperbolic complex numbers. A hyperbolic number is of
-   the form a + bj where j**2 = +1.
+   the form a + bj where j**2 = +1, j!=1,-1.
 
    Copyright (c) Konrad Burnik, August 2017
 
@@ -9,7 +9,7 @@
 from math import sqrt
 
 class HyperbolicNumber:
-    """Represents a hyperbolic number a + bj where j**2 = +1."""
+    """Represents a hyperbolic number a + bj where j**2 = +1, j!=1,-1."""
     def __init__(self, a, b):
         self.a = a
         self.b = b
